@@ -1,0 +1,10 @@
+{
+    // babel makes sure our code works across all browsers
+    // specify the presets that we downloaded via NPM
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+
+// babel-preset-env compiles es6 and later versions of our code
+// can figure out what browser we're using and compile what it needs to accordingly
+
+// babel-preset-react has presets to support JSX syntax
